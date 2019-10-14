@@ -1,4 +1,6 @@
-
+body{
+	background: lightsteelblue;
+}
 .m-padded-mini{
     padding: 0.2em !important;
 }
@@ -89,8 +91,19 @@
     max-width: 72em !important;
     margin: auto !important;
 }
+.m-container-small{
+	max-width: 60em !important;
+	margin: auto !important;
+}
 
 /*------------color-------------*/
 .m-black{
     color: #333 !important;
+}
+
+/*------------position------------*/
+.m-right-top{
+	position: absolute;
+	top: 0;
+	right: 0;
 }
